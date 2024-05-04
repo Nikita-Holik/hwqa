@@ -4,17 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="../styles/style_gallery.css">
 </head>
 <body>
-    <h1>Gallery</h1>
+    <header>
+        <h1>Gallery</h1>
+    </header>
 
-    <h2>Photos</h2>
-    <img src="../photos/Me.jpg" alt="Me">
-    <img src="../photos/navi.jpg" alt="My favorite team">
-    <img src="../photos/penguins.jpg" alt="My favorite animal">
-    <img src="..//photos/night_lovell.jpg" alt="My favorite singer">
-
-    <p><a href="../index.html">Main</a></p>
-    <p><a href="contact.html">Contact</a></p>
+    <section id = "gallery">
+        <h2>Photos</h2>
+        <div class="image-container">
+            <div class="image">
+                <img src="../photos/Me.jpg" alt="Me">
+                <p>Me</p>
+            </div>
+            <div class="image">
+                <img src="../photos/navi.jpg" alt="My favorite team">
+                <p>My favorite team</p>
+            </div>
+            <div class="image">
+                <img src="../photos/penguins.jpg" alt="My favorite animal">
+                <p>My favorite animal</p>
+            </div>
+            <div class="image">
+                <img src="..//photos/night_lovell.jpg" alt="My favorite singer">
+                <p>My favorite singer</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <nav>
+            <a href="../index.html" class="nav-link">Main</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </footer>
 </body>
 </html>
